@@ -237,6 +237,6 @@ out_dir = '/Users/wuzhengyu/Desktop/asignment2_data/';
 
 % Export data for numpy (https://github.com/kwikteam/npy-matlab)
 writeNPY(train_data, [out_dir 'train_data.npy']);
-csvwrite([out_dir 'train_lable.csv'], train_label);
+csvwrite([out_dir 'train_label.csv'], train_label);
 writeNPY(test_data, [out_dir 'test_data.npy']);
 csvwrite([out_dir 'test_label.csv'], test_label);
